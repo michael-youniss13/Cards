@@ -32,6 +32,13 @@ public class War{
 		}
 		System.out.println(count + " TURNS WERE PLAYED");
 		System.out.println("YOU ENDED WITH "+ player1.size() + " CARDS : " + player1);
+		if(player1.size() == 52) {
+			System.out.printlng("YOU ARE THE WINNER!!");
+		} else if (player1.size() == 0) {
+			System.out.println("YOU LOST! BETTER LUCK NEXT TIME");
+		} else {
+			System.out.println("YOU GAVE UP BEFORE A WINNER WAS DETERMINED!");
+		}
 	}
 
 	public static void deal(){
