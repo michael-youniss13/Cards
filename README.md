@@ -4,7 +4,7 @@
 ## How to play
 
   Download Card.java, Deck.java and War.java and put them in the same directory.<br>
-  Open up a terminal and run `javac War.java` then `java War`. Then type `play` and hit enter to play. Enjoy!
+  Open up a terminal and navigate to the directory with the downloaded files and run `javac War.java` then `java War`. Then type `play` and hit enter to play. Enjoy  !
 
 ### Card
   Card is the lowest level class built. Each instance of a Card class creates one Card object. Each Card object, like a normal playing card, has a value and suit. The Card class exposes three functions: `returnSuit()`, `returnValue()` and `toString()`.
